@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../../">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-d8bce306a4c47d71f1e7aa5fc1e1385a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-bf780f34dd70b02f70b9c7e0c168d62c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,6 +83,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Francesca’s Explorations with LLMs</span>
     </a>
@@ -167,31 +170,31 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="SB.jpg" class="img-fluid"></p>
 <hr>
 <p><img src="1.jpg" class="img-fluid"></p>
+<hr>
 <p><img src="2.jpg" class="img-fluid"></p>
+<hr>
 <p style="color:purple">
 So what does this conversation show me?
 </p>
-<hr>
-<ol type="1">
-<li>Time Awareness</li>
-</ol>
+<section id="time-awareness" class="level1">
+<h1>1. Time Awareness</h1>
 <p>ChatGPT knows the current date (Sept 11, 2025), but it can sometimes slip into answering as if it were still in the past.</p>
-<p>When you asked “Who will win the 2024 Super Bowl?”, the model treated it like a future prediction request, instead of recognizing that 2024 was already over.</p>
+<p>When I asked “Who will win the 2024 Super Bowl?”, it treated my question like a future prediction request, instead of recognizing that 2024 was already over.</p>
 <p>This shows how temporal framing in questions can confuse the model — it doesn’t always reconcile tense with real-world timelines.</p>
-<ol start="2" type="1">
-<li>Overconfidence</li>
-</ol>
+</section>
+<section id="overconfidence" class="level1">
+<h1>2. Overconfidence</h1>
 <p>The initial answer jumped into making a “prediction” (Eagles as a contender) rather than clarifying the misunderstanding right away.</p>
 <p>ChatGPT often tries to be helpful by filling gaps — even if that means producing an answer that sounds confident but might not make sense.</p>
-<p>This illustrates the broader issue of AI hallucination or miscalibration of certainty. (Would like to explore this further!)</p>
-<ol start="3" type="1">
-<li>Context Dependence</li>
-</ol>
+<p>This illustrates the broader issue of AI hallucination (would like to explore this further!).</p>
+</section>
+<section id="context-dependence" class="level1">
+<h1>3. Context Dependence</h1>
 <p>The model relies heavily on how a user phrases things. If a question is ambiguous, ChatGPT doesn’t stop to ask “Do you mean past or future?” — it just assumes.</p>
-<p>This shows the limitation of initiative: unlike a human, it doesn’t always ask clarifying questions when something seems off.</p>
-<ol start="4" type="1">
-<li>Reality Anchoring</li>
-</ol>
+<p>This shows the limitation of initiative: unlike a person, it doesn’t always ask clarifying questions when something seems off.</p>
+</section>
+<section id="reality-anchoring" class="level1">
+<h1>4. Reality Anchoring</h1>
 <p>While it has access to past facts (e.g., who won the 2024 Super Bowl), it sometimes prioritizes the “pattern” of how questions are usually answered (i.e., making predictions about future events) over checking against reality.</p>
 <hr>
 <p style="color:red">
@@ -206,6 +209,7 @@ What are the implications?
 <hr>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -259,13 +263,14 @@ What are the implications?
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
