@@ -1,7 +1,7 @@
 ---
 title: About
-image: profile.jpg
-about:
+image: ProfilePhoto.jpg
+about: My name is Francesca Fischer and I am junior at UPenn, majoring in Political Economy and minoring in Data Science & Analytics, and Consumer Psychology. In this blog, I will be e
   template: jolla
 ---
 
