@@ -6,10 +6,6 @@ website:
   navbar:
     right:
       - about.qmd
-      - icon:
-        href: 
-      - icon: 
-        href: 
 format:
   html:
     theme: journal
