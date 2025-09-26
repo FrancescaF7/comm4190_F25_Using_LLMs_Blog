@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="An LLM User">
-<meta name="dcterms.date" content="2024-02-02">
-<meta name="description" content="An example post from a Jupyter notebook">
+<meta name="author" content="Francesca">
+<meta name="dcterms.date" content="2025-09-25">
+<meta name="description" content="What if an AI could serve as your lifeline through history?">
 
-<title>A test post – Francesca’s Explorations with LLMs</title>
+<title>Time Traveler Hotline – Francesca’s Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,10 +110,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">A test post</h1>
+      <h1 class="title">Time Traveler Hotline</h1>
                   <div>
         <div class="description">
-          An example post from a Jupyter notebook
+          What if an AI could serve as your lifeline through history?
         </div>
       </div>
                           <div class="quarto-categories">
@@ -130,14 +130,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>An LLM User </p>
+               <p>Francesca </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 2, 2024</p>
+        <p class="date">September 25, 2025</p>
       </div>
     </div>
     
@@ -156,57 +156,19 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="a-visualization-problem-for-llms" class="level2">
-<h2 class="anchored" data-anchor-id="a-visualization-problem-for-llms">A visualization problem for LLMs</h2>
-<ul>
-<li>Read the following and see if you can answer the question:</li>
-</ul>
-<blockquote class="blockquote">
-<p>There are three boxes in a stack. A pink one, a purple one and a green one. The pink one is in the middle of the stack with the purple below it. What is the color of the box on the bottom of the stack?</p>
-</blockquote>
-<p>Most likely you answered <strong>purple</strong>…</p>
-<p>But it is possible you first said <strong>green</strong> (don’t worry if you did it is quite a common response!)</p>
-<section id="how-do-we-do-it" class="level3">
-<h3 class="anchored" data-anchor-id="how-do-we-do-it">How do we do it?</h3>
-<p>It’s a verbal visual problem that requires some deliberation and most likely for us to create a visual image of a stack of boxes as a reasoning aid.</p>
-<p>Notice also the complexity of the language used in the prompt to describe the scene. The use of natural language as opposed to a formal/logical calculus does hold the potential for ambiguity (multiple interpretations) and inexactness. However, it is the most normal/natural, efficient and broadly accessible way of communicating such information.</p>
-<p><strong>Notice</strong> 1. The use of <em>anaphor</em> or <em>reference</em>. - <code>Three BOXES -&gt; a pink/purple/green ONE</code> as opposed to <code>a pink box, a purple box and a green box</code>. - <code>The PINK ONE is in the middle ... the purple</code> {BOX} <code>below IT</code> {the pink box}</p>
-<pre><code>We tend to try and avoid this kind of repetition to make our speech more coherent.</code></pre>
-<ol start="2" type="1">
-<li>Although the description in language may not be entirely concise, there is no real ambiguity as to how the boxes can be arranged. It must be: | Box | Stack position | | — | — | | GREEN | top | | PINK | middle | | PURPLE | bottom |</li>
-</ol>
-</section>
-<section id="how-do-llms-response-to-the-prompt" class="level3">
-<h3 class="anchored" data-anchor-id="how-do-llms-response-to-the-prompt">How do LLMs response to the prompt?</h3>
-<p><strong>GPT3.5 Turbo</strong></p>
-<p><img src="gpt3-5.png" width="50%"></p>
-<p>Had some difficulties and answered <strong>green</strong></p>
-<p><strong>Llama2 (chat 7B version)</strong></p>
-<p><img src="llama2-chat7b.png" width="50%"></p>
-<ul>
-<li>Answered correctly (<strong>purple</strong>) and used some so-called <em>chain-of-thought</em> reasoning</li>
-</ul>
-<p><strong>Bing Chat (MS Co-pilot)</strong></p>
-<p>This LLM is GPT4 with some Microsoft specific tuning and RAG (search) additions.</p>
-<p>It get’s it correct:</p>
-<blockquote class="blockquote">
-<p>The color of the box on the bottom of the stack is purple. This is because the purple box is below the pink one, which is in the middle of the stack. Therefore, the purple box must be the lowest one. 🟪</p>
-</blockquote>
-<p>But when you follow up and ask it to create visual representation of the box arrangement</p>
-<blockquote class="blockquote">
-<p>PROMPT: Can you create a visual representation of how the boxes are arranged?</p>
-</blockquote>
-<p>It responds</p>
-<blockquote class="blockquote">
-<p>RESPONSE: Sure, I’ll try to create that. Here is a visual representation of how the boxes are arranged:</p>
-</blockquote>
-<p>And uses DALL-E3 to create 4 different attempts at a visual representation:</p>
-<p><img src="boxes.png" class="img-fluid"></p>
-<p><strong>NONE OF WHICH ARE CORRECT!!!</strong></p>
+<p><strong>Calling the LLM Time Traveler Hotline</strong></p>
+<p>What if an AI could serve as your lifeline through history? For my latest experiment, I invented the LLM Time Traveler Hotline. The premise is simple: I pretend to be a lost time traveler, stranded in the wrong century, and the AI plays the emergency hotline operator guiding me through survival.</p>
+<p>My first “call” went like this: “Help! I’m from the year 3025 but I’ve landed in 18th-century Paris. What do I do?” Without missing a beat, the AI advised me to ditch futuristic slang, carry coins for bread, and never, under any circumstances, mention germ theory — because nobody believed in microbes yet.</p>
+<p>When I “called back,” I had teleported to Ancient Rome. The AI immediately shifted gears, recommending I wear a toga to blend in and memorize a few Latin phrases like “Panem et circenses” (bread and circuses). In a later round, I landed in the 1990s and the LLM reminded me to carry quarters for pay phones and expect dial-up internet to take several minutes.</p>
+<hr>
+<p style="color: red;">
+The beauty of this game is how it highlights the LLM’s ability to adapt tone, register, and cultural knowledge on command. Each “call” forces the AI to roleplay in a new historical context, blending practical advice with a bit of theater.
+</p>
+<p>At its core, the Time Traveler Hotline demonstrates that communication isn’t just about facts. It’s about framing advice in context: who the listener is, where they are, and what norms matter in that world. Whether you’re stuck in Paris, Rome, or AOL chatrooms, the hotline shows how dialogue is always a negotiation between setting, tone, and shared meaning.</p>
+<p><em>Maybe one day we’ll all have a real hotline like this — until then, I’ll keep calling my AI operator for a crash course in surviving the centuries.</em></p>
+<p><img src="Hotline_files/figure-html/01839c93-81ba-4ef1-bf13-fa2fb428f591-1-80b35901-bb8f-468a-b7b7-be0b75e4b7d5.jpg" class="img-fluid"></p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

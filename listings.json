@@ -2,9 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/009/Automated_emails.html",
+      "/posts/008/Hotline.html",
+      "/posts/007/Toaster.html",
       "/posts/006_Life_Advice/Life_Advice.html",
-      "/posts/004_Cultural_Stereotypes/Stereotypes.html",
       "/posts/005_Sarcasm/Sarcasm.html",
+      "/posts/004_Cultural_Stereotypes/Stereotypes.html",
       "/posts/003_Predicting_the_Future/PTF.html",
       "/posts/002_Sell_the_Pen/STP.html",
       "/posts/001_Spill_the_Beans/STB.html",
