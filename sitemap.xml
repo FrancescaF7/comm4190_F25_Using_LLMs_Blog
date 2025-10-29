@@ -2,62 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/about.html</loc>
-    <lastmod>2025-10-16T17:20:48.722Z</lastmod>
+    <lastmod>2025-10-29T21:48:03.798Z</lastmod>
   </url>
   <url>
     <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/001_Spill_the_Beans/STB.html</loc>
-    <lastmod>2025-10-16T17:20:48.724Z</lastmod>
+    <lastmod>2025-10-29T21:48:03.800Z</lastmod>
   </url>
   <url>
-    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/009_Limericks/Limerick.html</loc>
-    <lastmod>2025-10-16T17:20:48.746Z</lastmod>
-  </url>
-  <url>
-    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/004_Cultural_Stereotypes/Stereotypes.html</loc>
-    <lastmod>2025-10-16T17:20:48.729Z</lastmod>
-  </url>
-  <url>
-    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/011_Typing_Dots/Typing_Dots.html</loc>
-    <lastmod>2025-10-16T17:20:48.746Z</lastmod>
-  </url>
-  <url>
-    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/007_Toaster/Toaster.html</loc>
-    <lastmod>2025-10-16T17:20:48.736Z</lastmod>
-  </url>
-  <url>
-    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/008_Hotline/Hotline.html</loc>
-    <lastmod>2025-10-16T17:20:48.742Z</lastmod>
-  </url>
-  <url>
-    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
-    <lastmod>2025-10-16T17:20:48.722Z</lastmod>
-  </url>
-  <url>
-    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/005_Sarcasm/Sarcasm.html</loc>
-    <lastmod>2025-10-16T17:20:48.729Z</lastmod>
-  </url>
-  <url>
-    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/010_AI_Therapist/AI_therapist.html</loc>
-    <lastmod>2025-10-16T17:20:48.746Z</lastmod>
-  </url>
-  <url>
-    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/013_Prompt_Length/Prompt_Length.html</loc>
-    <lastmod>2025-10-16T17:20:48.749Z</lastmod>
-  </url>
-  <url>
-    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/003_Predicting_the_Future/PTF.html</loc>
-    <lastmod>2025-10-16T17:20:48.727Z</lastmod>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/016_Branding_Team/Branding.html</loc>
+    <lastmod>2025-10-29T21:48:03.831Z</lastmod>
   </url>
   <url>
     <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/002_Sell_the_Pen/STP.html</loc>
-    <lastmod>2025-10-16T17:20:48.725Z</lastmod>
+    <lastmod>2025-10-29T21:48:03.801Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/015_Editing_Emails/Editing_Emails.html</loc>
+    <lastmod>2025-10-29T21:48:03.827Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/011_Typing_Dots/Typing_Dots.html</loc>
+    <lastmod>2025-10-29T21:48:03.822Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/007_Toaster/Toaster.html</loc>
+    <lastmod>2025-10-29T21:48:03.812Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/010_AI_Therapist/AI_therapist.html</loc>
+    <lastmod>2025-10-29T21:48:03.822Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/014_Study_Buddy/Study_Buddy.html</loc>
+    <lastmod>2025-10-29T21:48:03.826Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/005_Sarcasm/Sarcasm.html</loc>
+    <lastmod>2025-10-29T21:48:03.806Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/020_Overspending/Overspending.html</loc>
+    <lastmod>2025-10-29T21:48:03.833Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
+    <lastmod>2025-10-29T21:48:03.798Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/019_Travel_Planner/Travel_Planner.html</loc>
+    <lastmod>2025-10-29T21:48:03.833Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/017_Planning/Planning.html</loc>
+    <lastmod>2025-10-29T21:48:03.831Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/008_Hotline/Hotline.html</loc>
+    <lastmod>2025-10-29T21:48:03.818Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/018_Cooking/Cooking_Plans.html</loc>
+    <lastmod>2025-10-29T21:48:03.832Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/013_Prompt_Length/Prompt_Length.html</loc>
+    <lastmod>2025-10-29T21:48:03.825Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/003_Predicting_the_Future/PTF.html</loc>
+    <lastmod>2025-10-29T21:48:03.803Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/004_Cultural_Stereotypes/Stereotypes.html</loc>
+    <lastmod>2025-10-29T21:48:03.805Z</lastmod>
+  </url>
+  <url>
+    <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/009_Limericks/Limerick.html</loc>
+    <lastmod>2025-10-29T21:48:03.822Z</lastmod>
   </url>
   <url>
     <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/006_Life_Advice/Life_Advice.html</loc>
-    <lastmod>2025-10-16T17:20:48.732Z</lastmod>
+    <lastmod>2025-10-29T21:48:03.808Z</lastmod>
   </url>
   <url>
     <loc>https://FrancescaF7.github.io/comm4190_F25_Using_LLMs_Blog/posts/012_Improv_Night/Improv.html</loc>
-    <lastmod>2025-10-16T17:20:48.747Z</lastmod>
+    <lastmod>2025-10-29T21:48:03.823Z</lastmod>
   </url>
 </urlset>
